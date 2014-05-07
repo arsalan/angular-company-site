@@ -1,11 +1,26 @@
+﻿/**
+ *
+ * Responsive website using AngularJS
+ * http://www.script-tutorials.com/responsive-website-using-angularjs/
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2013, Script Tutorials
+ * http://www.script-tutorials.com/
+ */
+
 'use strict';
 
-/* Controllers */
+// optional controllers
+function HomeCtrl($scope, $http) {
+}
 
-angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope', function($scope) {
+function ProjectCtrl($scope, $http) {
+}
 
-  }])
-  .controller('MyCtrl2', ['$scope', function($scope) {
+function PrivacyCtrl($scope, $http, $timeout) {
+}
 
-  }]);
+function AboutCtrl($scope, $http, $timeout) {
+}
