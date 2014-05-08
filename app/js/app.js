@@ -13,7 +13,7 @@
 'use strict';
 
 // angular.js main app initialization
-var app = angular.module('example359', []).
+var app = angular.module('scient', []).
     config(['$routeProvider', function ($routeProvider) {
       $routeProvider.
         when('/', { templateUrl: 'pages/index.html', activetab: 'projects', controller: HomeCtrl }).
@@ -22,10 +22,10 @@ var app = angular.module('example359', []).
           controller: ProjectCtrl,
           activetab: 'projects'
         }).
-        when('/privacy', {
-          templateUrl: 'pages/privacy.html',
-          controller: PrivacyCtrl,
-          activetab: 'privacy'
+        when('/services', {
+          templateUrl: 'pages/services.html',
+          controller: ServicesCtrl,
+          activetab: 'services'
         }).
         when('/about', {
           templateUrl: 'pages/about.html',

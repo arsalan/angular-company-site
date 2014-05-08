@@ -1,0 +1,79 @@
+﻿html {
+  min-height:100%;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  position:relative;
+  width:100%;
+}
+body {
+  background-color:#e6e6e6;
+  color:#FFF;
+  font-weight:100;
+  margin:0;
+  min-height:100%;
+  width:100%;
+  font-family: 'Premiera Book',Premiera,'Droid Serif',Georgia,serif;
+}
+a {
+  text-decoration:none;
+}
+a img {
+  border:none;
+}
+h1 {
+  font-size:3.5em;
+  font-weight:100;
+}
+p {
+  font-size:1.5em;
+}
+input,textarea {
+  -webkit-appearance:none;
+  background-color:#f7f7f7;
+  border:none;
+  border-radius:3px;
+  font-size:1em;
+  font-weight:100;
+}
+input:focus,textarea:focus {
+  border:none;
+  outline:2px solid #7ed7b9;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+.btn {
+  background-color:#fff;
+  border-radius:24px;
+  color:#595959;
+  display:inline-block;
+  font-size:1.4em;
+  font-weight:400;
+  margin:30px 0;
+  padding:10px 30px;
+  text-decoration:none;
+}
+.btn:hover {
+  opacity:0.8;
+}
+.wrap {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0 auto;
+  max-width:1420px;
+  overflow:hidden;
+  padding:0 50px;
+  position:relative;
+  width:100%;
+}
+.wrap:before {
+  content:'';
+  display:inline-block;
+  height:100%;
+  margin-right:-0.25em;
+  vertical-align:middle;
+}
