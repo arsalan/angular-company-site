@@ -48,3 +48,48 @@ footer .copyright {
   margin-top:50px;
   text-align:center;
 }
+
+/* trial */
+footer {
+  background: url("//content.railsware.com/assets/backgrounds/bg_dark-6d5176f85005ce0e62b8098001b1b880.png") repeat scroll 0 0 #222222;
+    box-sizing: border-box;
+    color: #777777;
+    font-family: "Ruda";
+    font-size: 12px;
+    height: 315px;
+    line-height: 1.5em;
+    padding-top: 40px;
+}
+footer {
+    background: url("//content.railsware.com/assets/backgrounds/bg_dark-6d5176f85005ce0e62b8098001b1b880.png") repeat scroll 0 0 #222222;
+    box-sizing: border-box;
+    color: #777777;
+    font-family: "Ruda";
+    font-size: 12px;
+    height: 315px;
+    line-height: 1.5em;
+    padding-top: 40px;
+}
+footer .light {
+    color: #FFFFFF;
+}
+footer h3 {
+    border-bottom: 1px solid #605858;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+footer h3.colored {
+    border-bottom-color: #FFD300;
+}
+footer .copyright {
+    border-top: 1px solid #605858;
+}
+footer a {
+    color: inherit;
+    font-size: 13px;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FFFFFF;
+}

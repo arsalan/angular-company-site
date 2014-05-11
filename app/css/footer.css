@@ -1,0 +1,75 @@
+footer {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-top: 1px solid #EEEEEE;
+    padding: 7.5em 0 3.75em;
+    position: relative;
+    z-index: 2;
+}
+footer h6 {
+    color: #767676;
+    font-weight: 300;
+    margin-bottom: 11%;
+    text-transform: uppercase;
+}
+footer .address {
+    padding-top: 1.5em;
+}
+footer .copyright {
+    margin: 0.75em auto;
+    width: 20.3125em;
+}
+footer .copyright span {
+    color: #AFAFAF;
+    float: left;
+    font-size: 0.75em;
+    font-weight: lighter;
+    margin: 19px 0.8125em 0;
+    text-transform: uppercase;
+}
+footer .copyright .light-logo {
+    float: left;
+}
+footer p {
+    color: #AFAFAF;
+    margin-bottom: 5%;
+}
+footer p span {
+    display: block;
+    margin-bottom: 10px;
+}
+footer p span a, footer p span a:visited {
+    color: #AFAFAF;
+}
+footer .update input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px 0 0 4px;
+    color: #AFAFAF;
+    font-weight: lighter;
+    height: 2.5em;
+}
+footer .update input.button {
+    background-color: #FBFBFB;
+    border-left: 0 none;
+    font-weight: 100;
+    height: 1.75em;
+    line-height: 1.25em;
+    padding: 0;
+    transition: all 0.4s ease 0s;
+}
+footer .update input.button:hover {
+    background-color: #EEEEEE;
+    color: #FBA441 !important;
+}
+footer .update input.placeholder {
+    color: #AFAFAF;
+    font-size: 0.875em;
+    font-weight: lighter;
+    line-height: 19px;
+}
+footer .update input:-moz-placeholder {
+    color: #AFAFAF;
+    font-size: 0.875em;
+    font-weight: lighter;
+    line-height: 19px;
+}
